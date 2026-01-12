@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pypdfium2
+pillow
+cloudinary
+python-multipart
+requests
+python-dotenv
