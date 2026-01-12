@@ -1,0 +1,213 @@
+# 📄 PDF OCR Server
+
+Este proyecto es un **backend en FastAPI** que recibe uno o varios archivos PDF, los convierte en imágenes por página, las sube a **Cloudinary** y envía los resultados **PDF por PDF** a un **webhook de n8n** para su procesamiento OCR (por ejemplo con Google Vision).
+
+---
+
+## 🧠 Arquitectura general
+
+```
+Cliente / Frontend
+        │
+        ▼
+FastAPI (/procesar-pdfs)
+        │
+        ├─ Convierte PDF → imágenes (por página)
+        ├─ Sube imágenes a Cloudinary
+        └─ Envía resultados a n8n (1 PDF por ejecución)
+                                │
+                                ▼
+                         n8n Workflow (OCR / Vision)
+```
+
+---
+
+## 🚀 Flujo de funcionamiento
+
+1. Se envían **uno o varios PDFs** al endpoint `/procesar-pdfs`.
+2. Por cada PDF:
+
+   * Se valida que sea un archivo válido.
+   * Se convierte cada página a imagen (`pypdfium2`).
+   * Cada imagen se sube a Cloudinary.
+   * Se construye un payload con:
+
+     * nombre del archivo
+     * número de páginas
+     * URLs de las imágenes
+3. **Cada PDF se envía individualmente** al webhook de n8n.
+4. n8n procesa cada PDF en una **ejecución independiente**.
+
+---
+
+## 📁 Estructura del proyecto
+
+```
+app/
+├── main.py                     # Entrada principal FastAPI
+├── config.py                   # Variables de entorno
+├── services/
+│   ├── pdf_service.py          # PDF → imágenes
+│   ├── cloudinary_service.py   # Subida de imágenes
+│   └── webhook_service.py      # Envío a n8n
+├── utils/
+│   └── logger.py               # Logger centralizado
+logs/
+│   └── app.log                 # Logs rotativos
+venv/
+.env
+```
+
+---
+
+## ⚙️ Requisitos
+
+* Python **3.10+**
+* Cuenta de **Cloudinary**
+* Instancia de **n8n** con webhook activo
+
+---
+
+## 📦 Instalación
+
+### 1️⃣ Crear entorno virtual
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+### 2️⃣ Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔐 Variables de entorno (.env)
+
+Crear un archivo `.env` en la raíz del proyecto:
+
+```env
+# FastAPI
+PDF_RENDER_SCALE=2.0
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=xxxx
+CLOUDINARY_API_KEY=xxxx
+CLOUDINARY_API_SECRET=xxxx
+CLOUDINARY_FOLDER=pdf_ocr
+
+# n8n
+N8N_WEBHOOK_URL=https://n8n.tudominio.com/webhook/pdf-ocr
+```
+
+⚠️ **Importante**: usar siempre `/webhook/` y NO `/webhook-test/` para producción.
+
+---
+
+## ▶️ Ejecutar el servidor
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Servidor disponible en:
+
+```
+http://127.0.0.1:8000
+```
+
+Documentación automática:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+## 📤 Endpoint principal
+
+### `POST /procesar-pdfs`
+
+**Tipo:** `multipart/form-data`
+
+**Campo:**
+
+* `pdfs`: uno o varios archivos PDF
+
+### Respuesta:
+
+```json
+{
+  "status": "ok",
+  "total_files": 1,
+  "files": [
+    {
+      "file": "archivo.pdf",
+      "pages": 2,
+      "images": [
+        "https://cloudinary/...page_1.png",
+        "https://cloudinary/...page_2.png"
+      ]
+    }
+  ]
+}
+```
+
+---
+
+## 🔁 Integración con n8n
+
+* Cada PDF genera **una ejecución independiente** en n8n.
+* El webhook recibe un payload con:
+
+```json
+{
+  "cliente": "Mediclick",
+  "documento": "archivo.pdf",
+  "imagenes": ["url1", "url2"]
+}
+```
+
+📌 Las ejecuciones se visualizan en **Executions**, no siempre en el canvas en tiempo real.
+
+---
+
+## 📝 Logs
+
+* Consola y archivo `logs/app.log`
+* Incluye:
+
+  * PDFs procesados
+  * Páginas subidas
+  * Errores de Cloudinary o n8n
+
+---
+
+## ✅ Buenas prácticas implementadas
+
+* Envío **PDF por PDF** (mejor escalabilidad)
+* Logs centralizados
+* Manejo de errores
+* Webhook en producción
+* Arquitectura lista para crecer
+
+---
+
+## 📌 Notas finales
+
+* El sistema está preparado para escalar
+* Para grandes volúmenes se recomienda:
+
+  * colas (Redis / RabbitMQ)
+  * workers
+  * base de datos para tracking
+
+---
+
+👨‍💻 Proyecto listo para producción y mantenimiento.
+
+Si tienes dudas, revisa los logs o las ejecuciones en n8n.
