@@ -1,13 +1,11 @@
 import json
 import os
 from fastapi import APIRouter, HTTPException
-
 from app.services.csv_service import write_single_csv
 from app.services.normalizer_service import normalize_csv_data
 from app.utils.generate_csv_filename import generate_csv_filename
 
 router = APIRouter()
-
 
 @router.post("/procesar-json-ia")
 async def procesar_json_ia(payload: dict):
