@@ -2030,3 +2030,17 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://n8n.
 [2026-01-08 17:36:53,089] [INFO] [app.main] Archivos recibidos: 1
 [2026-01-08 17:36:53,089] [INFO] [app.main] Procesando archivo: ejemplos.csv
 [2026-01-08 17:36:53,089] [ERROR] [app.main] Tipo de archivo no soportado: ejemplos.csv
+[2026-01-13 14:10:26,987] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:10:26,989] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:10:26,995] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmphd6jcxv6\doc00846320251208121504.pdf
+[2026-01-13 14:10:26,996] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:10:27,030] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:10:27,035] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:10:28,718] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:10:29,576] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: d9ea81b1-23c1-433e-9cbc-f933db092bbe_page_1
+[2026-01-13 14:10:31,415] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768331428/pdf_ocr/d9ea81b1-23c1-433e-9cbc-f933db092bbe_page_1.png
+[2026-01-13 14:10:31,416] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:10:31,416] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:10:31,416] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:10:32,639] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:10:32,640] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
