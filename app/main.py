@@ -1,18 +1,23 @@
 import os
 import tempfile
 from typing import List
+
 from fastapi import FastAPI, UploadFile, File, HTTPException, BackgroundTasks
+
 from app.config import settings
 from app.utils.logger import get_logger
+
 from app.services.pdf_processor_service import procesar_pdf_individual
 from app.services.zip_service import extract_pdfs_from_zip
 from app.services.webhook_bd_service import trigger_n8n_subir_bd
+
 from app.routes.ai_csv import router as ai_csv_router
 from app.routes.client_csv import router as client_csv_router
 
 logger = get_logger(__name__)
 
 app = FastAPI(title="PDF OCR Server")
+
 app.include_router(ai_csv_router)
 app.include_router(client_csv_router)
 
@@ -36,17 +41,19 @@ async def procesar_archivos(
     background_tasks: BackgroundTasks = None
 ):
     logger.info(f"Archivos recibidos: {len(files)}")
+
     resultados = []
-    
+
     for file in files:
         logger.info(f"Procesando archivo: {file.filename}")
+
         temp_dir = tempfile.mkdtemp()
         file_path = os.path.join(temp_dir, file.filename)
-        
+
         # Guardar archivo temporal
         with open(file_path, "wb") as f:
             f.write(await file.read())
-        
+
         # ==========================
         # PDF DIRECTO
         # ==========================
@@ -57,7 +64,7 @@ async def procesar_archivos(
                 source="pdf"
             )
             resultados.append(resultado)
-        
+
         # ==========================
         # ZIP
         # ==========================
@@ -66,12 +73,13 @@ async def procesar_archivos(
             "application/x-zip-compressed"
         ]:
             pdf_paths = extract_pdfs_from_zip(file_path, temp_dir)
+
             if not pdf_paths:
                 raise HTTPException(
                     status_code=400,
                     detail=f"El ZIP {file.filename} no contiene PDFs"
                 )
-            
+
             for pdf_path in pdf_paths:
                 resultado = await procesar_pdf_individual(
                     pdf_path=pdf_path,
@@ -79,23 +87,24 @@ async def procesar_archivos(
                     source="zip"
                 )
                 resultados.append(resultado)
+
         else:
             logger.error(f"Tipo de archivo no soportado: {file.filename}")
             raise HTTPException(
                 status_code=400,
                 detail=f"{file.filename} no es PDF ni ZIP"
             )
-    
-    # ✨ NUEVO: Enviar a BD en segundo plano
+
+    # Enviar a BD en segundo plano
     if background_tasks:
         background_tasks.add_task(
             enviar_pdfs_a_bd_background,
             resultados
         )
-    
+
     return {
         "status": "ok",
         "total_files": len(resultados),
         "files": resultados,
         "message": "Archivos procesados y subiendo a BD"
-    }
+    }  

@@ -2044,3 +2044,675 @@ requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://n8n.
 [2026-01-13 14:10:31,416] [INFO] [app.services.webhook_service] Páginas: 1
 [2026-01-13 14:10:32,639] [INFO] [app.services.webhook_service] n8n response status: 200
 [2026-01-13 14:10:32,640] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:26:45,618] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:26:45,618] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:26:45,622] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpvltstsod\doc00846320251208121504.pdf
+[2026-01-13 14:26:45,622] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:26:45,643] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:26:45,644] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:26:45,770] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:26:45,827] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 0245cc3e-8314-45f3-b340-08b61ee3a735_page_1
+[2026-01-13 14:26:47,926] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768332404/pdf_ocr/0245cc3e-8314-45f3-b340-08b61ee3a735_page_1.png
+[2026-01-13 14:26:47,926] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:26:47,927] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:26:47,927] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:26:48,960] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:26:48,961] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:30:57,105] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:30:57,105] [INFO] [app.main] Procesando archivo: redturtle034.jpg
+[2026-01-13 14:30:57,109] [ERROR] [app.main] Tipo de archivo no soportado: redturtle034.jpg
+[2026-01-13 14:31:00,543] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:31:00,543] [INFO] [app.main] Procesando archivo: redturtle034.jpg
+[2026-01-13 14:31:00,545] [ERROR] [app.main] Tipo de archivo no soportado: redturtle034.jpg
+[2026-01-13 14:31:10,333] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:31:10,334] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:31:10,335] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp_tx77zz8\doc00846320251208121504.pdf
+[2026-01-13 14:31:10,335] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:31:10,346] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:31:10,347] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:31:10,433] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:31:10,503] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: cd7faf06-6408-401f-b7bc-df1c13156dce_page_1
+[2026-01-13 14:31:12,385] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768332669/pdf_ocr/cd7faf06-6408-401f-b7bc-df1c13156dce_page_1.png
+[2026-01-13 14:31:12,385] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:31:12,385] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:31:12,386] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:31:13,230] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:31:13,230] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:32:34,281] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:32:34,282] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:32:34,284] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp266be7yg\doc00846320251208121504.pdf
+[2026-01-13 14:32:34,285] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:32:34,303] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:32:34,303] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:32:34,400] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:32:34,453] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: ccec4472-33ca-4543-9c55-c943a75e91ab_page_1
+[2026-01-13 14:32:36,512] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768332753/pdf_ocr/ccec4472-33ca-4543-9c55-c943a75e91ab_page_1.png
+[2026-01-13 14:32:36,513] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:32:36,513] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:32:36,514] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:32:37,661] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:32:37,662] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:32:42,243] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:32:42,243] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:32:42,246] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpx3fh0hqe\doc00846320251208121504.pdf
+[2026-01-13 14:32:42,247] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:32:42,265] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:32:42,266] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:32:42,368] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:32:42,418] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 022651a1-832a-48fd-bd44-f61a110d6a26_page_1
+[2026-01-13 14:32:43,089] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768332760/pdf_ocr/022651a1-832a-48fd-bd44-f61a110d6a26_page_1.png
+[2026-01-13 14:32:43,090] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:32:43,090] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:32:43,090] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:32:43,838] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:32:43,838] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:57:35,289] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 14:57:35,289] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 14:57:35,292] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpz9eetarq\doc00846320251208121504.pdf
+[2026-01-13 14:57:35,293] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 14:57:35,307] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 14:57:35,308] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 14:57:35,375] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 14:57:35,438] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: abe82788-863d-471c-965d-a24efa4f9313_page_1
+[2026-01-13 14:57:37,201] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768334254/pdf_ocr/abe82788-863d-471c-965d-a24efa4f9313_page_1.png
+[2026-01-13 14:57:37,203] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 14:57:37,204] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 14:57:37,205] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 14:57:38,144] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 14:57:38,145] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 14:57:38,147] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 14:57:38,148] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 14:57:38,148] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 14:57:38,922] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 14:57:38,922] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:02:32,248] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:02:32,248] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:02:32,251] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp50as2d3_\doc00846320251208121504.pdf
+[2026-01-13 15:02:32,251] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:02:32,269] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:02:32,270] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:02:32,342] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:02:32,386] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 19b50408-3110-43b9-981a-5b386136eff4_page_1
+[2026-01-13 15:02:33,331] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768334550/pdf_ocr/19b50408-3110-43b9-981a-5b386136eff4_page_1.png
+[2026-01-13 15:02:33,333] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:02:33,334] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:02:33,335] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:02:34,082] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:02:34,083] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:02:34,088] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:02:34,088] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:02:34,088] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:02:34,867] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:02:34,867] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:03:30,024] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:03:30,024] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:03:30,027] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpe13p_j3_\doc00846320251208121504.pdf
+[2026-01-13 15:03:30,028] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:03:30,043] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:03:30,043] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:03:30,133] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:03:30,174] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: c5db57c7-fcd2-4590-b32f-5cdfca602963_page_1
+[2026-01-13 15:03:30,739] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768334608/pdf_ocr/c5db57c7-fcd2-4590-b32f-5cdfca602963_page_1.png
+[2026-01-13 15:03:30,740] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:03:30,741] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:03:30,742] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:03:31,628] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:03:31,630] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:03:31,637] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:03:31,637] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:03:31,638] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:03:32,408] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:03:32,409] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:23:11,739] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:23:11,740] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:23:11,742] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp3h6p9hki\doc00846320251208121504.pdf
+[2026-01-13 15:23:11,742] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:23:11,758] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:23:11,759] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:23:11,828] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:23:11,883] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 7d0099a9-5999-44cd-b337-b816a57cd707_page_1
+[2026-01-13 15:23:13,735] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768335791/pdf_ocr/7d0099a9-5999-44cd-b337-b816a57cd707_page_1.png
+[2026-01-13 15:23:13,736] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:23:13,736] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:23:13,736] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:23:14,721] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:23:14,722] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:24:58,541] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:24:58,542] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:24:58,543] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpk3t1sed2\doc00846320251208121504.pdf
+[2026-01-13 15:24:58,543] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:24:58,555] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:24:58,556] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:24:58,652] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:24:58,692] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 6b9b46c9-e752-44e1-b516-ac2c73869836_page_1
+[2026-01-13 15:25:01,003] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768335897/pdf_ocr/6b9b46c9-e752-44e1-b516-ac2c73869836_page_1.png
+[2026-01-13 15:25:01,003] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:25:01,004] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:25:01,004] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:25:01,783] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:25:01,784] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:27:21,354] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:27:21,355] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:27:21,359] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpzn3ivm32\doc00846320251208121504.pdf
+[2026-01-13 15:27:21,359] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:27:21,376] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:27:21,377] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:27:21,487] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:27:21,553] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 1fa592bd-9b1f-4c94-a4d2-49ca25e00f13_page_1
+[2026-01-13 15:27:24,206] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336040/pdf_ocr/1fa592bd-9b1f-4c94-a4d2-49ca25e00f13_page_1.png
+[2026-01-13 15:27:24,207] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:27:24,208] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:27:24,208] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:27:25,067] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:27:25,068] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:30:25,615] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:30:25,616] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:30:25,616] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:30:31,029] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:30:31,029] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:30:31,032] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpszem2m_4\doc00846320251208121504.pdf
+[2026-01-13 15:30:31,033] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:30:31,046] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:30:31,047] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:30:31,136] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:30:31,193] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 7f34f0de-76ce-4608-989e-e328c0ea83f3_page_1
+[2026-01-13 15:30:33,858] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336230/pdf_ocr/7f34f0de-76ce-4608-989e-e328c0ea83f3_page_1.png
+[2026-01-13 15:30:33,859] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:30:33,859] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:30:33,860] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:30:34,651] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:30:34,651] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:31:06,359] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:31:06,359] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:06,361] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmphp_b4n0_\doc00846320251208121504.pdf
+[2026-01-13 15:31:06,361] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:31:06,375] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:31:06,375] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:31:06,463] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:31:06,509] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 6e3b20dc-4bf5-4fd4-bd19-f8e79993c974_page_1
+[2026-01-13 15:31:07,570] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336264/pdf_ocr/6e3b20dc-4bf5-4fd4-bd19-f8e79993c974_page_1.png
+[2026-01-13 15:31:07,571] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:31:07,572] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:07,573] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:31:08,407] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:31:08,407] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:31:09,747] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:31:09,747] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:09,748] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpgbuob21d\doc00846320251208121504.pdf
+[2026-01-13 15:31:09,749] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:31:09,761] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:31:09,762] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:31:09,848] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:31:09,904] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: b615fc3c-fe4d-4642-9418-759819c69305_page_1
+[2026-01-13 15:31:10,506] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336267/pdf_ocr/b615fc3c-fe4d-4642-9418-759819c69305_page_1.png
+[2026-01-13 15:31:10,507] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:31:10,507] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:10,507] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:31:11,294] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:31:11,294] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:31:53,369] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:31:53,370] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:53,372] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpkndi_anl\doc00846320251208121504.pdf
+[2026-01-13 15:31:53,373] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:31:53,395] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:31:53,397] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:31:53,483] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:31:53,543] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 5eab7d4a-e3f9-4cd6-9544-07d70a3ebe09_page_1
+[2026-01-13 15:31:54,247] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336311/pdf_ocr/5eab7d4a-e3f9-4cd6-9544-07d70a3ebe09_page_1.png
+[2026-01-13 15:31:54,248] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:31:54,248] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:31:54,248] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:31:54,996] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:31:54,996] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:33:21,672] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:33:21,672] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:33:21,672] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:33:21,708] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:33:21,708] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:33:27,764] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:33:27,765] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:33:27,769] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpcx7uspqa\doc00846320251208121504.pdf
+[2026-01-13 15:33:27,770] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:33:27,788] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:33:27,788] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:33:27,887] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:33:27,939] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 1a2deb94-cd0c-42c6-bcf3-e5dd7abe5404_page_1
+[2026-01-13 15:33:30,087] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336407/pdf_ocr/1a2deb94-cd0c-42c6-bcf3-e5dd7abe5404_page_1.png
+[2026-01-13 15:33:30,088] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:33:30,088] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:33:30,089] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:33:30,851] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:33:30,851] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:38:07,675] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:38:07,676] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:38:07,676] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:38:07,698] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:38:07,698] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:38:07,702] [INFO] [app.main] [MAIN] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:38:07,702] [INFO] [app.main] [MAIN] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:38:11,105] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:38:11,106] [INFO] [app.main] Procesando archivo: doc00846320251208121504.pdf
+[2026-01-13 15:38:11,109] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmplgh_q0a_\doc00846320251208121504.pdf
+[2026-01-13 15:38:11,109] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:38:11,122] [INFO] [app.services.pdf_service] Total de páginas detectadas: 1
+[2026-01-13 15:38:11,123] [INFO] [app.services.pdf_service] Renderizando página 1/1
+[2026-01-13 15:38:11,225] [INFO] [app.services.pdf_service] Renderizado completo (1 imágenes)
+[2026-01-13 15:38:11,287] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 0bddd30d-de9e-47f2-a5e3-711b67fb6cdd_page_1
+[2026-01-13 15:38:13,324] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336690/pdf_ocr/0bddd30d-de9e-47f2-a5e3-711b67fb6cdd_page_1.png
+[2026-01-13 15:38:13,324] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:38:13,325] [INFO] [app.services.webhook_service] Archivo: doc00846320251208121504.pdf
+[2026-01-13 15:38:13,325] [INFO] [app.services.webhook_service] Páginas: 1
+[2026-01-13 15:38:14,076] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:38:14,077] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: doc00846320251208121504.pdf
+[2026-01-13 15:38:14,078] [INFO] [app.main] [OK] Carpeta CSV creada/verificada: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:38:14,079] [INFO] [app.main] [SAVE] Guardando CSV de PDFs procesados en: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv\reporte_20260113_153814_d35a9c96.csv
+[2026-01-13 15:38:14,080] [ERROR] [app.main] [ERROR] Error al crear CSV: dict contains fields not in fieldnames: 'pages', 'source', 'images', 'file'
+[2026-01-13 15:38:14,082] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:38:14,082] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:38:14,082] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:38:14,841] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:38:14,842] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:42:12,952] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:42:12,953] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:42:12,954] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpm4r2i16q\11E5332572.pdf
+[2026-01-13 15:42:12,954] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:42:12,972] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:42:12,979] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:42:13,024] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:42:13,044] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:42:13,114] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 604c5afb-efcf-4ae9-bc34-fa621618bfac_page_1
+[2026-01-13 15:42:13,689] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336931/pdf_ocr/604c5afb-efcf-4ae9-bc34-fa621618bfac_page_1.png
+[2026-01-13 15:42:13,741] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 974cde27-f04d-4a9c-bbdf-828d33e1ba5f_page_2
+[2026-01-13 15:42:14,720] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336931/pdf_ocr/974cde27-f04d-4a9c-bbdf-828d33e1ba5f_page_2.png
+[2026-01-13 15:42:14,721] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:42:14,721] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:42:14,721] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:42:15,516] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:42:15,517] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:42:15,518] [INFO] [app.main] [OK] Carpeta CSV creada/verificada: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:42:15,518] [INFO] [app.main] [SAVE] Guardando CSV de PDFs procesados en: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv\reporte_20260113_154215_12119922.csv
+[2026-01-13 15:42:15,519] [ERROR] [app.main] [ERROR] Error al crear CSV: dict contains fields not in fieldnames: 'pages', 'source', 'images', 'file'
+[2026-01-13 15:42:15,520] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:42:15,520] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:42:15,520] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:42:16,301] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:42:16,301] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:42:42,200] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:42:42,201] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:42:42,202] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpdm9bvggq\11E5332572.pdf
+[2026-01-13 15:42:42,203] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:42:42,222] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:42:42,223] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:42:42,259] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:42:42,281] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:42:42,345] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: a2325fb1-f76e-4b9c-bb52-a2a74533cd83_page_1
+[2026-01-13 15:42:42,942] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336960/pdf_ocr/a2325fb1-f76e-4b9c-bb52-a2a74533cd83_page_1.png
+[2026-01-13 15:42:42,972] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 0721378c-b931-4a0c-8e39-473611bde37f_page_2
+[2026-01-13 15:42:44,037] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768336961/pdf_ocr/0721378c-b931-4a0c-8e39-473611bde37f_page_2.png
+[2026-01-13 15:42:44,038] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:42:44,038] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:42:44,039] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:42:44,791] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:42:44,792] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:42:44,795] [INFO] [app.main] [OK] Carpeta CSV creada/verificada: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:42:44,795] [INFO] [app.main] [SAVE] Guardando CSV de PDFs procesados en: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv\reporte_20260113_154244_6f9984ef.csv
+[2026-01-13 15:42:44,796] [ERROR] [app.main] [ERROR] Error al crear CSV: dict contains fields not in fieldnames: 'pages', 'source', 'images', 'file'
+[2026-01-13 15:42:44,797] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:42:44,797] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:42:44,797] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:42:45,535] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:42:45,535] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:43:45,136] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:43:45,137] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:43:45,138] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp_rrh1rb0\11E5332572.pdf
+[2026-01-13 15:43:45,139] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:43:45,164] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:43:45,165] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:43:45,221] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:43:45,241] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:43:45,287] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 14d6e805-c345-4b42-b2c1-b9fd28657bee_page_1
+[2026-01-13 15:43:46,031] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337023/pdf_ocr/14d6e805-c345-4b42-b2c1-b9fd28657bee_page_1.png
+[2026-01-13 15:43:46,080] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 20ec5bd6-62b4-416c-b794-6731aaeb0721_page_2
+[2026-01-13 15:43:46,575] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337024/pdf_ocr/20ec5bd6-62b4-416c-b794-6731aaeb0721_page_2.png
+[2026-01-13 15:43:46,576] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:43:46,576] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:43:46,576] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:43:47,330] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:43:47,330] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:43:47,333] [INFO] [app.main] [OK] Carpeta CSV creada/verificada: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:43:47,333] [INFO] [app.main] [SAVE] Guardando CSV de PDFs procesados en: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv\reporte_20260113_154347_2c5e2893.csv
+[2026-01-13 15:43:47,334] [ERROR] [app.main] [ERROR] Error al crear CSV: dict contains fields not in fieldnames: 'pages', 'source', 'images', 'file'
+[2026-01-13 15:43:47,335] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 15:43:47,335] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 15:43:47,335] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 15:43:48,093] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 15:43:48,093] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 15:44:49,859] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:44:49,860] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:44:49,860] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:44:49,876] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:44:49,877] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:53:37,415] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:53:37,415] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:53:37,415] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:53:37,434] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:53:37,434] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:53:42,240] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:53:42,240] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:53:42,240] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:53:42,256] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:53:42,256] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:54:52,155] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:54:52,155] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:54:52,159] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpgqb131lo\11E5332572.pdf
+[2026-01-13 15:54:52,160] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:54:52,175] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:54:52,176] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:54:52,252] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:54:52,272] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:54:52,342] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 1ef07536-613c-43c0-be06-36b084d7fb47_page_1
+[2026-01-13 15:54:53,940] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337691/pdf_ocr/1ef07536-613c-43c0-be06-36b084d7fb47_page_1.png
+[2026-01-13 15:54:53,986] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: f60fe962-8c83-4f45-9201-7894f5b4fee8_page_2
+[2026-01-13 15:54:54,646] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337692/pdf_ocr/f60fe962-8c83-4f45-9201-7894f5b4fee8_page_2.png
+[2026-01-13 15:54:54,647] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:54:54,647] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:54:54,647] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:54:56,014] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:54:56,015] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:56:13,428] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:56:13,429] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:56:13,430] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpihzz8zbb\11E5332572.pdf
+[2026-01-13 15:56:13,430] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:56:13,452] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:56:13,452] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:56:13,487] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:56:13,506] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:56:13,551] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 68526526-47c1-4339-8afa-3965396f21f3_page_1
+[2026-01-13 15:56:14,354] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337771/pdf_ocr/68526526-47c1-4339-8afa-3965396f21f3_page_1.png
+[2026-01-13 15:56:14,393] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 0cc86406-11a5-4b80-81c8-654a7acc90d9_page_2
+[2026-01-13 15:56:15,065] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337772/pdf_ocr/0cc86406-11a5-4b80-81c8-654a7acc90d9_page_2.png
+[2026-01-13 15:56:15,066] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:56:15,067] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:56:15,067] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:56:16,468] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:56:16,469] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:56:42,147] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:56:42,147] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:56:42,148] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpv0o9at81\11E5332572.pdf
+[2026-01-13 15:56:42,148] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:56:42,167] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:56:42,168] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:56:42,216] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:56:42,243] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:56:42,306] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: b3fe26f4-3561-4e73-837f-36668d353390_page_1
+[2026-01-13 15:56:42,963] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337800/pdf_ocr/b3fe26f4-3561-4e73-837f-36668d353390_page_1.png
+[2026-01-13 15:56:42,998] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: c7c9b25e-e3f3-49b6-b4d9-d4b6e7ce44a4_page_2
+[2026-01-13 15:56:43,534] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337800/pdf_ocr/c7c9b25e-e3f3-49b6-b4d9-d4b6e7ce44a4_page_2.png
+[2026-01-13 15:56:43,535] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:56:43,535] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:56:43,535] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:56:44,318] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:56:44,319] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:57:03,022] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:57:03,023] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:03,023] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:03,041] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:03,041] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:18,592] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:57:18,593] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:18,593] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:18,609] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:18,610] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:23,634] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:57:23,635] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:23,635] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:23,652] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:57:23,652] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:57:27,858] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 15:57:27,858] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 15:57:27,863] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmp06o7ys4k\11E5332572.pdf
+[2026-01-13 15:57:27,864] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 15:57:27,882] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 15:57:27,883] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 15:57:27,949] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 15:57:27,969] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 15:57:28,026] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 6eb2754f-acfb-4b32-bd7c-3c18a76fff05_page_1
+[2026-01-13 15:57:29,841] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337847/pdf_ocr/6eb2754f-acfb-4b32-bd7c-3c18a76fff05_page_1.png
+[2026-01-13 15:57:29,896] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: fdc321b3-7940-4329-a835-619d9714fd6e_page_2
+[2026-01-13 15:57:31,403] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768337847/pdf_ocr/fdc321b3-7940-4329-a835-619d9714fd6e_page_2.png
+[2026-01-13 15:57:31,404] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 15:57:31,404] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 15:57:31,404] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 15:57:32,462] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 15:57:32,463] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 15:58:05,227] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:58:05,227] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:05,228] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:58:05,244] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:05,245] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:58:34,785] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:58:34,785] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:34,785] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:58:34,802] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:34,802] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:58:40,621] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:58:40,621] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:40,621] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:58:40,638] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:58:40,638] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:32,881] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:59:32,882] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:32,882] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:32,898] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:32,898] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:35,373] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:59:35,374] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:35,374] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:35,391] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:35,392] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:43,662] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:59:43,663] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:43,663] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:43,701] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:43,701] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:48,583] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 15:59:48,584] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:48,584] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 15:59:48,603] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 15:59:48,604] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:00:17,464] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:00:17,465] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:00:17,469] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpu3jfbj2n\11E5332572.pdf
+[2026-01-13 16:00:17,470] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:00:17,488] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:00:17,489] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:00:17,544] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:00:17,570] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:00:17,630] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: da181ff8-65d3-4709-8c59-f6a69ff3feda_page_1
+[2026-01-13 16:00:19,391] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338016/pdf_ocr/da181ff8-65d3-4709-8c59-f6a69ff3feda_page_1.png
+[2026-01-13 16:00:19,428] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: b0a8ca8a-01f1-4362-a299-c9b2bd2b8249_page_2
+[2026-01-13 16:00:20,184] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338017/pdf_ocr/b0a8ca8a-01f1-4362-a299-c9b2bd2b8249_page_2.png
+[2026-01-13 16:00:20,185] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:00:20,186] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:00:20,186] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:00:20,981] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:00:20,981] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:00:50,425] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:00:50,425] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:00:50,425] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:00:50,442] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:00:50,442] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:22,167] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:01:22,167] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:22,168] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:22,185] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:22,186] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:30,037] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:01:30,038] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:30,038] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:30,055] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:30,055] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:42,485] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:01:42,486] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:01:42,490] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpq_58iim0\11E5332572.pdf
+[2026-01-13 16:01:42,491] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:01:42,507] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:01:42,509] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:01:42,580] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:01:42,605] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:01:42,663] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: f48100b8-eb87-4454-8405-22413dcf8124_page_1
+[2026-01-13 16:01:44,632] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338101/pdf_ocr/f48100b8-eb87-4454-8405-22413dcf8124_page_1.png
+[2026-01-13 16:01:44,696] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 8288e585-fce9-446a-b158-5ed70c5ecde9_page_2
+[2026-01-13 16:01:45,475] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338102/pdf_ocr/8288e585-fce9-446a-b158-5ed70c5ecde9_page_2.png
+[2026-01-13 16:01:45,476] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:01:45,477] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:01:45,477] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:01:46,490] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:01:46,490] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:01:53,691] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:01:53,692] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:53,692] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:01:53,710] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:01:53,710] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:02:19,241] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:02:19,241] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:02:19,241] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:02:19,256] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:02:19,256] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:02:29,157] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:02:29,157] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:02:29,161] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpm04olakv\11E5332572.pdf
+[2026-01-13 16:02:29,162] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:02:29,176] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:02:29,178] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:02:29,239] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:02:29,264] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:02:29,328] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 191a4450-43bc-4ab7-9097-dbfe933a96dc_page_1
+[2026-01-13 16:02:30,864] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338148/pdf_ocr/191a4450-43bc-4ab7-9097-dbfe933a96dc_page_1.png
+[2026-01-13 16:02:30,893] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 8d64e1c0-4e33-4c9a-accc-f806f4dc5cd6_page_2
+[2026-01-13 16:02:31,529] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338148/pdf_ocr/8d64e1c0-4e33-4c9a-accc-f806f4dc5cd6_page_2.png
+[2026-01-13 16:02:31,530] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:02:31,531] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:02:31,533] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:02:32,311] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:02:32,312] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:05:24,826] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:05:24,827] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:05:24,827] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:05:24,855] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:05:24,855] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:05:28,513] [INFO] [app.routes.ai_csv] [FILE] __file__: C:\Users\Multimedios\Documents\Github\PDF-OCD\app\routes\ai_csv.py
+[2026-01-13 16:05:28,513] [INFO] [app.routes.ai_csv] [BASE] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:05:28,513] [INFO] [app.routes.ai_csv] [CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:05:28,531] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:05:28,532] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:05:35,335] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:05:35,335] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:05:35,339] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpsod4vnd1\11E5332572.pdf
+[2026-01-13 16:05:35,339] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:05:35,352] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:05:35,354] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:05:35,415] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:05:35,434] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:05:35,517] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: d106a5d3-393a-4150-92dc-582925e33b0a_page_1
+[2026-01-13 16:05:37,504] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338334/pdf_ocr/d106a5d3-393a-4150-92dc-582925e33b0a_page_1.png
+[2026-01-13 16:05:37,558] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 23c0e799-3aa7-470e-984f-c815c53edbde_page_2
+[2026-01-13 16:05:38,157] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338335/pdf_ocr/23c0e799-3aa7-470e-984f-c815c53edbde_page_2.png
+[2026-01-13 16:05:38,158] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:05:38,158] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:05:38,158] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:05:39,310] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:05:39,311] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:11:23,104] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:11:23,104] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:11:23,106] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpf0grv2di\11E5332572.pdf
+[2026-01-13 16:11:23,106] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:11:23,128] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:11:23,130] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:11:23,182] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:11:23,200] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:11:23,245] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 4728e7f6-e55b-4561-b0cd-23f0d0bfb349_page_1
+[2026-01-13 16:11:24,086] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338681/pdf_ocr/4728e7f6-e55b-4561-b0cd-23f0d0bfb349_page_1.png
+[2026-01-13 16:11:24,151] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: fb18072d-ffe6-4be6-b909-7b471493d5c5_page_2
+[2026-01-13 16:11:24,995] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338682/pdf_ocr/fb18072d-ffe6-4be6-b909-7b471493d5c5_page_2.png
+[2026-01-13 16:11:24,996] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:11:24,996] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:11:24,996] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:11:25,891] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:11:25,892] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:14:27,849] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:14:27,850] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:14:36,124] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:14:36,124] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:14:40,159] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:14:40,159] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:14:54,009] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:14:54,009] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:14:54,014] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpeua6nrqp\11E5332572.pdf
+[2026-01-13 16:14:54,015] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:14:54,031] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:14:54,032] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:14:54,086] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:14:54,106] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:14:54,172] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 9530c5cd-f2a6-4c43-91f6-7e8194c731fd_page_1
+[2026-01-13 16:14:56,377] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338893/pdf_ocr/9530c5cd-f2a6-4c43-91f6-7e8194c731fd_page_1.png
+[2026-01-13 16:14:56,425] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: bf29bc01-8baf-4c6a-90eb-f157362ec277_page_2
+[2026-01-13 16:14:56,996] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338894/pdf_ocr/bf29bc01-8baf-4c6a-90eb-f157362ec277_page_2.png
+[2026-01-13 16:14:56,996] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:14:56,997] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:14:56,997] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:14:58,059] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:14:58,059] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:14:58,062] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 16:14:58,062] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 16:14:58,063] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 16:14:58,843] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 16:14:58,844] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 16:16:01,847] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:16:01,847] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:16:05,777] [INFO] [app.routes.client_csv] [CLIENT-CSV] BASE_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD
+[2026-01-13 16:16:05,778] [INFO] [app.routes.client_csv] [CLIENT-CSV] CSV_DIR: C:\Users\Multimedios\Documents\Github\PDF-OCD\csv
+[2026-01-13 16:16:14,856] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:16:14,856] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:16:14,858] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmpfgq0wmqz\11E5332572.pdf
+[2026-01-13 16:16:14,858] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:16:14,871] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:16:14,872] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:16:14,931] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:16:14,955] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:16:15,015] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 13d66028-0f8b-499a-8477-9abf269826e7_page_1
+[2026-01-13 16:16:16,823] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338974/pdf_ocr/13d66028-0f8b-499a-8477-9abf269826e7_page_1.png
+[2026-01-13 16:16:16,856] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 24486cb8-d4ea-423e-94c7-0a435d19dc38_page_2
+[2026-01-13 16:16:17,501] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768338974/pdf_ocr/24486cb8-d4ea-423e-94c7-0a435d19dc38_page_2.png
+[2026-01-13 16:16:17,501] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:16:17,501] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:16:17,501] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:16:18,259] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:16:18,260] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:16:18,263] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 16:16:18,263] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 16:16:18,263] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 16:16:19,019] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 16:16:19,020] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
+[2026-01-13 16:25:14,457] [INFO] [app.main] Archivos recibidos: 1
+[2026-01-13 16:25:14,458] [INFO] [app.main] Procesando archivo: 11E5332572.pdf
+[2026-01-13 16:25:14,459] [INFO] [app.services.pdf_service] Abriendo PDF: C:\Users\MULTIM~1\AppData\Local\Temp\tmptowhh5tr\11E5332572.pdf
+[2026-01-13 16:25:14,459] [INFO] [app.services.pdf_service] Escala de renderizado: 2.0
+[2026-01-13 16:25:14,480] [INFO] [app.services.pdf_service] Total de páginas detectadas: 2
+[2026-01-13 16:25:14,481] [INFO] [app.services.pdf_service] Renderizando página 1/2
+[2026-01-13 16:25:14,524] [INFO] [app.services.pdf_service] Renderizando página 2/2
+[2026-01-13 16:25:14,543] [INFO] [app.services.pdf_service] Renderizado completo (2 imágenes)
+[2026-01-13 16:25:14,596] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 43381de3-8005-498b-bd10-ec500940c43e_page_1
+[2026-01-13 16:25:15,962] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768339512/pdf_ocr/43381de3-8005-498b-bd10-ec500940c43e_page_1.png
+[2026-01-13 16:25:15,996] [INFO] [app.services.cloudinary_service] Subiendo imagen a Cloudinary: 473679b3-6277-4701-9109-77e3348059c7_page_2
+[2026-01-13 16:25:16,629] [INFO] [app.services.cloudinary_service] Imagen subida correctamente: https://res.cloudinary.com/dfbpaq83u/image/upload/v1768339513/pdf_ocr/473679b3-6277-4701-9109-77e3348059c7_page_2.png
+[2026-01-13 16:25:16,629] [INFO] [app.services.webhook_service] Enviando PDF a n8n
+[2026-01-13 16:25:16,629] [INFO] [app.services.webhook_service] Archivo: 11E5332572.pdf
+[2026-01-13 16:25:16,630] [INFO] [app.services.webhook_service] Páginas: 2
+[2026-01-13 16:25:17,918] [INFO] [app.services.webhook_service] n8n response status: 200
+[2026-01-13 16:25:17,920] [INFO] [app.services.webhook_service] PDF enviado correctamente a n8n: 11E5332572.pdf
+[2026-01-13 16:25:17,924] [INFO] [app.services.webhook_bd_service] >> Enviando datos a BD via n8n
+[2026-01-13 16:25:17,924] [INFO] [app.services.webhook_bd_service] URL: https://n8n.mediclick.us/webhook/062a44da-4ca7-45b1-b765-900ad190dff3
+[2026-01-13 16:25:17,924] [INFO] [app.services.webhook_bd_service] Tipo: procesar-archivos
+[2026-01-13 16:25:18,684] [INFO] [app.services.webhook_bd_service] Response status: 200
+[2026-01-13 16:25:18,685] [INFO] [app.services.webhook_bd_service] Datos enviados correctamente a BD
