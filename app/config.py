@@ -15,5 +15,9 @@ class Settings:
     # Webhooks de n8n
     N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
     N8N_WEBHOOK_SUBIR_BD = os.getenv("N8N_WEBHOOK_SUBIR_BD")
+    
+    MAX_CONCURRENT_PDFS = int(os.getenv("MAX_CONCURRENT_PDFS", 2))
+    MAX_FILES_PER_REQUEST = int(os.getenv("MAX_FILES_PER_REQUEST", 10))
+
 
 settings = Settings()
