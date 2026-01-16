@@ -7,6 +7,7 @@ class Settings:
     APP_PORT = int(os.getenv("APP_PORT", 3000))
     PDF_RENDER_SCALE = float(os.getenv("PDF_RENDER_SCALE", 2))
     
+    # Cloudinary
     CLOUDINARY_CLOUD_NAME = os.getenv("CLOUDINARY_CLOUD_NAME")
     CLOUDINARY_API_KEY = os.getenv("CLOUDINARY_API_KEY")
     CLOUDINARY_API_SECRET = os.getenv("CLOUDINARY_API_SECRET")
@@ -15,5 +16,9 @@ class Settings:
     # Webhooks de n8n
     N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
     N8N_WEBHOOK_SUBIR_BD = os.getenv("N8N_WEBHOOK_SUBIR_BD")
+    
+    # ✨ NUEVAS CONFIGURACIONES para control de concurrencia
+    MAX_CONCURRENT_PDFS = int(os.getenv("MAX_CONCURRENT_PDFS", 2))
+    MAX_FILES_PER_REQUEST = int(os.getenv("MAX_FILES_PER_REQUEST", 10))
 
 settings = Settings()
