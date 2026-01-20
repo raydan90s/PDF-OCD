@@ -1,21 +1,10 @@
-import json
-import os
-from fastapi import APIRouter, HTTPException, BackgroundTasks
-from app.services.csv_service import write_single_csv
-from app.services.normalizer_service import normalize_csv_data
-from app.services.webhook_bd_service import trigger_n8n_subir_bd
-from app.utils.generate_csv_filename import generate_csv_filename
-from app.utils.logger import get_logger
-
-logger = get_logger(__name__)
-router = APIRouter()
-
-async def enviar_a_bd_background(normalized_data: list, csv_path: str):
+async def enviar_a_bd_background(normalized_data: list, csv_path: str, pdf_uuid: str = None):
     """Envía datos a BD en segundo plano"""
     try:
         payload = {
             "tipo": "ai-csv",
             "csv_path": csv_path,
+            "pdf_uuid": pdf_uuid,  # 🆕 Incluir UUID del PDF
             "total_registros": len(normalized_data),
             "data": normalized_data
         }
@@ -27,11 +16,10 @@ async def enviar_a_bd_background(normalized_data: list, csv_path: str):
 async def procesar_json_ia(payload: dict, background_tasks: BackgroundTasks):
     try:
         ia_raw = payload.get("data")
+        pdf_uuid = payload.get("pdf_uuid")  # 🆕 Recibir UUID
+        
         if not ia_raw:
-            raise HTTPException(
-                status_code=400,
-                detail="No se recibió data de la IA"
-            )
+            raise HTTPException(status_code=400, detail="No se recibió data de la IA")
         
         if isinstance(ia_raw, str):
             ai_data = json.loads(ia_raw)
@@ -45,16 +33,18 @@ async def procesar_json_ia(payload: dict, background_tasks: BackgroundTasks):
         csv_path = f"csv/{csv_name}"
         write_single_csv(normalized, csv_path)
         
-        # Enviar a BD en segundo plano
+        # 🆕 Pasar pdf_uuid al background task
         background_tasks.add_task(
             enviar_a_bd_background,
             normalized,
-            csv_path
+            csv_path,
+            pdf_uuid
         )
         
         return {
             "status": "ok",
             "csv": csv_path,
+            "pdf_uuid": pdf_uuid,
             "message": "CSV creado y subiendo a BD"
         }
         

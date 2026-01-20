@@ -10,12 +10,14 @@ from app.services.pdf_processor_service import procesar_pdf_individual
 from app.services.zip_service import extract_pdfs_from_zip
 from app.routes.ai_csv import router as ai_csv_router
 from app.routes.client_csv import router as client_csv_router
+from app.routes.reprocess import router as reprocess_router  # 🆕 IMPORTAR
 
 logger = get_logger(__name__)
 
 app = FastAPI(title="PDF OCR Server")
 app.include_router(ai_csv_router)
 app.include_router(client_csv_router)
+app.include_router(reprocess_router, prefix="/api", tags=["reprocess"])  # 🆕 REGISTRAR
 
 
 async def procesar_pdf_seguro(pdf_path: str, original_name: str, source: str):
