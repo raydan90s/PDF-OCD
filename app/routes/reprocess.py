@@ -32,7 +32,7 @@ async def reprocesar_pdf(payload: dict):
                 break
         
         if not pdf_file:
-            raise HTTPException(
+            raise HTTPException(       
                 status_code=404,
                 detail=f"PDF con UUID {pdf_uuid} no encontrado"
             )
